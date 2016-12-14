@@ -77,12 +77,12 @@ var reducer = function(state, action) {
         //TODO: Analyse why `return false` doesn't work to break R.forEach  
         R.forEach(x=>{
             // Get the current open card
-            if (x.id === action.id){
+            if (x.id === action.id && !x.matched){
 
                 //TODO: Convert _.map to R.map           
                 // iterate again the list of cards to check if open cards are matched                 
                 _.map(newCardList, function(obj, index){
-                    // If not matched, close the both cards 
+                    // If not matched, close both cards 
                     if (obj.open && obj.backgroundImg !== x.backgroundImg && !obj.matched){
 
                         obj.open = false;
