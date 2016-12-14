@@ -73,7 +73,8 @@ var reducer = function(state, action) {
 
         // clone the current list of cards
         var newCardList = R.clone(state.cardList); 
-
+        
+        //TODO: Analyse why `return false` doesn't work to break R.forEach  
         R.forEach(x=>{
             // Get the current open card
             if (x.id === action.id){
@@ -86,6 +87,7 @@ var reducer = function(state, action) {
 
                         obj.open = false;
                         x.open   = false;
+                        return false;
                     }
                     // if matched, set `matched` attribute to TRUE
                     // check if number of open cards with same background image is 2
@@ -94,9 +96,8 @@ var reducer = function(state, action) {
 
                         obj.matched = true;
                         x.matched = true;
-                        //return;
-                    }
-                    return;
+                        return false;
+                    }                    
                 });             
             }
         }, newCardList);
