@@ -3,18 +3,18 @@ body{
 }
 
 #content{
-	padding: 10px;
+    padding: 10px;
 }
 
 #container{
-	padding: 10px;      
+    padding: 10px;      
     margin-left: 23%;
     width: 1000px;
 }
 
 .memoColumn{
     float:left;
-	display:inline-block;
+    display:inline-block;
 }
 
 .memoCard{
