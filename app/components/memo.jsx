@@ -79,8 +79,8 @@ var MemoPresentation = React.createClass({
 
 	    return (
     	    <div>          
-	            {cardList}                     
-        	</div>
+	        {cardList}                     
+            </div>
         );
     }
 });
