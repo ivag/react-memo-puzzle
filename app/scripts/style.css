@@ -1,0 +1,87 @@
+body{
+	background-image: url("img/bg.jpg");		
+}
+
+#content{
+	padding: 10px;
+}
+
+#container{
+	padding: 10px;      
+    margin-left: 23%;
+    width: 1000px;
+}
+
+.memoColumn{
+    float:left;
+	display:inline-block;
+}
+
+.memoCard{
+    border: 5px solid #ddd;
+    width: 170px;
+    height: 180px;
+    margin: 10px;
+    background: white;
+}
+
+.memoCard:hover{
+	cursor: pointer;	
+}
+
+.twilight{      
+    background-image: url("img/twilight.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 500px 300px;    
+}
+
+.flower{      
+    background-image: url("img/flower.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 260px 200px;    
+}
+
+.sunset{      
+    background-image: url("img/sunset.jpg");
+    background-repeat: no-repeat;
+    background-size: 250px 200px;
+    background-position-x: 35%;  
+}
+
+.road{      
+    background-image: url("img/road.jpg");
+    background-repeat: no-repeat;
+    background-size: 300px 200px;
+    background-position-x: 44%;  
+}
+
+.boat{      
+    background-image: url("img/boat.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 350px 200px;    
+}
+
+.sunrise{      
+    background-image: url("img/sunrise.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 500px 200px;    
+}
+
+.sky{      
+    background-image: url("img/sky.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 400px 200px; 
+    background-position-x: 30%;   
+}
+
+.tree{      
+    background-image: url("img/tree.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 400px 200px;    
+}
