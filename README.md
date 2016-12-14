@@ -1,5 +1,11 @@
 # react-memo-puzzle
-Memory game with react and redux. To run the game - node main.js.
+Memory game with react and redux. 
+
+To run it:
+
+npm install 
+
+node main.js
 
 Used libraries and frameworks:
 
